@@ -1,0 +1,52 @@
+/*----------------------REUSABLE----------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+section{
+    position: relative;
+    height: 50vh;
+}
+.number{
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+.section-title{
+    font-size: 80px;
+    
+}
+
+.section-description{
+    font-size: 30px;
+}
+
+.images{
+    height: 30vh;
+}
+/*--------------------Header--------------------------*/
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/fortlee.png');
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+header h1{
+    position: absolute;
+    font-size: 50px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/*----------------------Hirams----------------------------------*/
